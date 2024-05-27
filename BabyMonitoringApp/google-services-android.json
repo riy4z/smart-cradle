@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "234497818078",
+    "firebase_url": "https://smart-cradle-327e9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "smart-cradle-327e9",
+    "storage_bucket": "smart-cradle-327e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234497818078:android:7b81e4f155f0675493314f",
+        "android_client_info": {
+          "package_name": "com.riy4z.cradle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVHR2vfNB_dEc32jyjEqTMKGZOah5xrAs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

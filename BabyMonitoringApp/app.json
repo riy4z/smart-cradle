@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "BabyMonitoringApp",
+    "slug": "BabyMonitoringApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    
+    "platforms": ["ios", "android"],
+    "plugins": ["react-native-ble-plx"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.babymonitoringapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.babymonitoringapp",
+      "googleServicesFile": "./google-services-android.json",
+      "permissions": ["BLUETOOTH", "BLUETOOTH_ADMIN", "ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
